@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Log In Page</title>
+</head>
+<body>
+    <header class="logo">
+        <i class="fa-brands fa-spotify"></i>
+        <p>Spotify</p>
+        <i class="fa-regular fa-registered "></i>
+    </header>
+    <section class="layout-body">
+        <div class="layout-container">
+            <div class="layout-heading">
+                <h1>Log in to Spotify</h1>
+            </div>
+            <div class="third-party-button">
+                <div class="google">
+                    <a href="https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-351546146%3A1699011704041880&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&o2v=2&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect%2Fsignup&response_type=code&scope=profile+email+openid&service=lso&state=AQC2oO1qkDoa7rIBnfH8omljdtKVf7i%2ByVSIPXs2FAtOrczWnw4QjqMgI9Ail4T27umaHHQz2QsDFcML4tnWn7bf6TW1URi25A3Sc7AriaDA5M0Wr8Hr1CbDuqwc82z8GPo7mkrW5ap9%2BBB0EZz5m6%2BvffZOhKk5fpWJ278YwFeEPAjlrkseSsm5C5tDGzZtjj6KWONiEDDx18v8GPzCloKyNR2QcT2ShTMGrefwF5o36TgDvhimMUZMdlhlua1CsTXOyRFN8W%2BnFu%2FKPFinKev1G9V8L3QbLkdpLTSf6UxYrG2qadGT12U3W7KWpofcGbPZ8zPr%2FAWx%2BbtGc8y2ASfVTJMOs0r5MnA5KNzkuxH3z5Ihb3JP1fUFZMhSYNIEFMQtthXOJzTwMRPZs67ixoBv1ugBAGz0DU92%2ByVo3adGD2xqSdKadPkHr4CY1FwWqwNK0wLsG3Yqq1YOQhmvHMecRtwELcZJmC%2FsWJoC87%2BzTXtGJT0KKgDNU2EEBh7BLXvrCfyWs3%2FkSL9IxA%3D%3D&theme=glif&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANf5Ivxjxp7W7YH-NEsNBeDEkEpOwwFpnVBLNNCpUSsBf4UAdqrrx0a4ElD7kTnLw7iEdZLr1MLyhuLn_es9S7YzqHHgz_IaVXMUqY51YnfXH7ONFEDdxm9yjeIAbrf7UMaVUN-Je7V5gveF2f5E_av7hTxWHNV424xvqFP7WIBkB1oOxT_D6bcJjyGnp7xpKnlS3PSAFujCqJi8LSeg4hokHKIsN642CuiQ709TX6cvi45s0_TO1Ly6Yw3_4wnPA7q6z9qRWi5V_p97j_IUVjLMzsPAf0Uqd85xODkSXjIjlZtLRdQlFDTkIek5sfVlmFqF9x4yqcpV4DYI2uzXIWYlejCNcVm8jXA7xmGVrWKEW1B1Q9pHs37zyUSjskfhedWdg7N-g-NtlRPJ7Vh8qJu-5qcIh84Uquy4pNGifbcjcGcDi0cfrQC7z90P7q3AxRyupfLi5-nefZ8paF7XPuMfvhp8GLP5lMKkPFanXZ7y8ZaEeU%26as%3DS-351546146%253A1699011704041880%26client_id%3D1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com%26theme%3Dglif%23&app_domain=https%3A%2F%2Faccounts.spotify.com&rart=ANgoxccIci0nba04Oh34lWJkcFYlO9TGbInR1TXGs70b5gn274AJKWE468H3rdiE3MkSKX5-N-3AibeJOghc9EURLWhwD85bqg">
+                        <i class="fa-brands fa-google"></i>
+                        <p>Continue with Google</p>
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv17.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQDUnGRqMXNUpKgAh9xH257V8jN%252BCSNdzQOq26kDZSJ4Ne8LxTTq2vEHotRjPWIb%252B01OR%252BBxqj3gD8uckj6rGf3t1ELSnmQGphqSEi%252F2RHvoCstQIoLOu3rn%252F9fkZNy9Uv0d6bgJWTLwBADBzRUpJH%252ByvvTqCWZqWFW7rZ%252BNJW1YGu%252B89UsAM5a5dddLJHZSvPv2MfjqbQuZhXwCk8vMC9AxOvWK21ZAGvCrLZWeNZ7HuLDvkkMR9OJnD%252BNbpnBOiRxmo9wUyXjchECaQvVS8GkJum4qQVeqPDPbRRnlh1hUumLfA38rPydO7JifVyK5V8Tda6ZtYreGDqr6mfVsCVEG7UwKcakS4a0GvYABXWo6pRN8Ezv5Aw1vfe3u9X34EBpbsayGUkeqGdmhJ0M73%252FKTUD0dHQW7hPPdpMF1cvDdpHqBF4CTRx5EE%252Fqh0IvLbD%252BkkpoVa7%252FnIhV0X%252BCvs8YfPSBRSFkMiZ4IpuGPdoT%252BR3q3s2DuPamT7cSG2eBJ6yG00eAq9Hdfh2gX4Q%253D%253D%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%252Fsignup%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D0e93f6bd-58ec-43e4-97f6-e7f574393d45%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%2Fsignup%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQDUnGRqMXNUpKgAh9xH257V8jN%252BCSNdzQOq26kDZSJ4Ne8LxTTq2vEHotRjPWIb%252B01OR%252BBxqj3gD8uckj6rGf3t1ELSnmQGphqSEi%252F2RHvoCstQIoLOu3rn%252F9fkZNy9Uv0d6bgJWTLwBADBzRUpJH%252ByvvTqCWZqWFW7rZ%252BNJW1YGu%252B89UsAM5a5dddLJHZSvPv2MfjqbQuZhXwCk8vMC9AxOvWK21ZAGvCrLZWeNZ7HuLDvkkMR9OJnD%252BNbpnBOiRxmo9wUyXjchECaQvVS8GkJum4qQVeqPDPbRRnlh1hUumLfA38rPydO7JifVyK5V8Tda6ZtYreGDqr6mfVsCVEG7UwKcakS4a0GvYABXWo6pRN8Ezv5Aw1vfe3u9X34EBpbsayGUkeqGdmhJ0M73%252FKTUD0dHQW7hPPdpMF1cvDdpHqBF4CTRx5EE%252Fqh0IvLbD%252BkkpoVa7%252FnIhV0X%252BCvs8YfPSBRSFkMiZ4IpuGPdoT%252BR3q3s2DuPamT7cSG2eBJ6yG00eAq9Hdfh2gX4Q%253D%253D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Continue with Facebook</p>
+                    </a>
+                </div>
+                <div class="apple">
+                    <a href="https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQDz0WTkeDrKprXWrojG%2BA8OrEbtDhGqxIo95%2F4%2FIBUYGV%2FtD6LyMWdDeLdkiZvA%2BXH6ELgUZDNzc4gKE2elYNgyA4t8RrnQ6lDtjOsozzFhiqgu91YCdpKSbo%2FUSSc%2B5TgbudpcQZhyZFyj8zApA2rgE669AhJ0%2FVvQ%2F%2FN5dP%2BeCuc0m2LxhLeKT4Ul6Co%2F4CknHU6bIAQcCdJM1SGcpMFHQTdXHRJ6KjTSy4g6lXboy0g%2BcnpX%2BbMbY0KbtZIKMVjlmVylqhwtNTm49ZWyUg7jE5OA3%2BKduwpDGTfUzBQI0LSLNIOSByIu&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect">
+                        <i class="fa-brands fa-apple"></i>
+                        <p>Continue with Apple</p>
+                    </a>
+                </div>
+                <div class="phone">
+                    <a href="https://accounts.spotify.com/en/login/phone?continue=https%3A%2F%2Fopen.spotify.com%2Fsection%2F0JQ5DAuChZYPe9iDhh2mJz&flow_ctx=318c76af-9366-4b03-b5ea-2a1b54a4fb4c:1699175758">
+                        <p>Continue with phone number</p>
+                    </a>
+                </div>
+            </div>
+            <form class="form-layout" id="login-form">
+                <label for="username">Email or username
+                    <input type="email" placeholder="Email or username" id="username">
+                </label>
+                <p id="emailError"></p>
+                <label for="password">Password
+                    <input type="password" id="password" placeholder="password">
+                </label>
+                <p id="passwordError"></p>
+                <input type="submit" value="Log in" id="submit">
+                <a href="https://accounts.spotify.com/en/password-reset?flow_ctx=626b8b3d-4903-4631-b41d-dd6b5cb6b6a0%3A1699176649" id="reset-password">
+                    <p>Forgot your password?</p>
+                </a>
+            </form>
+            <div class="signup-container">
+                <p>Don't have an accout?</p>
+                <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2Fsection%2F0JQ5DAuChZYPe9iDhh2mJz">Sign up for Spotify.</a>
+            </div>
+        </div>
+    </section>
+    <footer class="layout-footer">
+        <p>This site is protected by reCAPTCHA and the Google</p>
+        <p>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a> and
+            <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+        </p>
+    </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39420fa562.js" crossorigin="anonymous"></script>
+    <script>
+        const loginForm = document.querySelector("#login-form");
+        const email = document.querySelector("#username");
+        const password = document.querySelector("#password");
+
+        //Function to validate email
+        const validateEmail = (inputEmail) =>{
+            inputEmail.value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+        }
+        const validatePassword = (inputPassword) =>{
+            inputPassword.value.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+        }
+
+        //Function to display Errors
+        const generateError = (error, errorMsg) =>{
+            const emailError = document.querySelector("#emailError");
+            const passwordError = document.querySelector("#passwordError");
+            if(error == "email"){
+                emailError.innerText = errorMsg;
+            }
+            else if(error == "password") {
+                passwordError.innerText = errorMsg;
+            }
+        }
+
+        //Function to validate form
+        const formValidate = (inputEmail, inputPassword) =>{
+            if(!validateEmail(inputEmail)){
+                emailError = "Please enter your Spotify username or email address.";
+                generateError("email", emailError);
+                return;
+            }
+            if(!validatePassword(inputPassword)){
+                passwordError = "Please enter your password.";
+                generateError("password", passwordError);
+                return;
+            }
+        }
+
+        //Triggered when the user submits the form
+        loginForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        formValidate(email, password);
+        });
+
+        //Triggered when user clicks anywhere else than input
+        email.addEventListener("focusout", (event) => {
+            if(!validateEmail(email)) {
+            email.style.borderColor = "red";
+            generateError("email", "Please enter your Spotify username or email address.");
+            email.parentElement.classList.add("error");
+            }
+        });
+        password.addEventListener("focusout", (event) => {
+            if(!validatePassword(password)) {
+                password.style.borderColor = "red";
+                generateError("password", "Please enter your password.");
+                password.parentElement.classList.add("error");
+            }
+        });
+    </script>
+</body>
+</html>

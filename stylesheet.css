@@ -1,0 +1,353 @@
+body{
+    background-color:#000000;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    display:flex;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+}
+.navbar{
+    width:420px;
+}
+.nav1{
+    padding:13px;
+    background:#121212;
+    height:145px;
+    border-radius:7px;
+    display:flex;
+    flex-direction:column;
+}
+.nav-logo, .homeBtn, .searchBtn{
+    background:transparent;
+    color:#ffffff;
+    border:none;
+    cursor:pointer;
+    padding-bottom:3px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+.homeBtn, .searchBtn{
+    color:#a7a7a7;
+}
+.homeBtn:focus, .searchBtn:focus{
+    color:#ffffff;
+}
+.nav1 i{
+    font-size:20px;
+    margin-right:10px;
+}
+.nav1 p{
+    font-size:15px;
+    font-weight:900;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav2{
+    margin-top:2%;
+    padding:20px;
+    color:white;
+    background:#121212;
+    height:478px;
+    border-radius:7px;
+}
+.yourLibrary{
+    margin:1px 0px;
+}
+.fa-plus{
+    float:right;
+    cursor:pointer;
+    padding:5px;
+}
+.fa-plus:hover{
+    border-radius:9999px;
+    background:#242424;
+}
+.library-features{
+    height:230px;
+    width:100%;
+    overflow-x:scroll; 
+    /* limiting the height of the library-features and let it overflow */
+}
+.line1{
+    margin-bottom:0px;
+}
+.line2{
+    font-size:x-small;
+    margin-top:12px;
+}
+.button{
+    border-radius:9999px;
+    cursor:pointer;
+    font-weight:700;
+    margin-top:4%;
+    padding:2.3%;
+    padding-left:4%;
+    padding-right:4%;
+    border:none;
+}
+.button:hover,.button1:hover, .button2:hover, .button3:hover{
+    transform: scale(1.06);
+}
+.playlist, .podcast{
+    box-sizing:border-box;
+    width:375px;
+    height:140px;
+    background:#242424;
+    border-radius:7px;
+    margin:16px 0px;
+    padding:1px 20px;
+}
+.information{
+    display:flex;
+    flex-wrap:wrap;
+    margin:32px 0px;
+}
+.information a{
+    padding:28px 28px 0px 0px; 
+    font-size:11px;
+    color:#a7a7a7;
+    text-decoration:none;
+}
+.page-footer{
+    width:97.2%;
+    /* postion fixed and bottom 0 maintains the footer at the bottom location */
+    position:fixed; 
+    bottom:0;
+    height:91px;
+    color:#ffffff;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    padding:0px 16px 8px;
+    margin:8px 0px 8px;
+}
+.footer-heading{
+    font-size:12px;
+    letter-spacing:1px;
+}
+.preview{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.hero-section{
+    background:#090909;
+    margin-left:9px;
+    border-radius:7px;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 20px;
+}
+.menu-one{
+    display:flex;
+}
+.menu-two{
+    display:flex;
+    justify-content:right;
+}
+.button1{
+    color:white;
+    background:transparent;
+    border:none;
+    padding:8px 20px ;
+    font-size:25px;
+    cursor:pointer;
+}
+.button2{
+    color:#a7a7a7;
+    background:none;
+    border:none;
+    width:85px;
+    font-weight:600;
+    font-size:medium;
+    letter-spacing:0.7px;
+    padding:8px 20px;
+    cursor:pointer;
+    text-decoration:none;
+}
+.button2:hover{
+    color:white;
+}
+.button3{
+    border-radius:9999px;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+    font-size:medium;
+    padding:8px 32px;
+    background:white;
+    text-decoration:none;
+    /* white-space: nowrap mitigates the text to appear in a single line */
+    white-space:nowrap;
+    color:black;
+    margin-left:35px;
+}
+/* @media screen and (max-width:800px) {
+} */
+.spotify-body{
+    background:linear-gradient(#242424, #101010);
+    height:610px; /**related to scroll feature**/
+    padding:1px 0px;
+    overflow:scroll; /**related to scroll feature**/
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+}
+.new-playlist{
+    color:#ffffff;
+    height:690px;
+}
+.new-playlist-head{
+    display:flex;
+    height:340px;
+    background:linear-gradient(rgba(200, 8, 200, 0.551), #af2896);
+}
+.image{
+    padding-top:120px;
+    padding-left:20px;
+    font-weight:900;
+    font-size:xx-large;
+}
+.playlist-information{
+    padding-top:190px;
+    padding-left:20px;
+}
+.small{
+    margin:0;
+    padding-left:5px;
+}
+.large{
+    font-size:4.5rem;
+    font-weight:bolder;
+    margin:0;
+}
+.new-playlist-body{
+    background:linear-gradient(rgba(200, 8, 200, 0.551), #af2896);
+}
+.action-bar{
+    height:60px;
+    padding:16px;
+}
+.tracklist-heading{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0px 16px;
+    border-bottom:1px solid #292929;
+}
+.tracks{
+    display:flex;
+    justify-content:space-between;
+    padding:0px 20px;
+}
+.settings{
+    background:transparent;
+    color:#a7a7a7;
+    border:none;
+    font-size:1.5rem;
+    padding:20px;
+}
+.playlist-head, .search-head{
+    color:#ffffff;
+    font-size:20px;
+    font-weight:bolder;
+    padding:0px 20px;
+}
+.playlist-body, .search-body{
+    display:flex;
+    flex-wrap:wrap;
+}
+.box{
+    width:221px;
+    height:299px;
+    background:#171717;
+    box-sizing:border-box;
+    border-radius:7px;
+    margin:16px 0px 16px 24px;
+    padding:15px 15px;
+    cursor:pointer;
+}
+.box:hover{
+    background:#242424;
+}
+.box a{
+    text-decoration:none;
+}
+.search-body{
+    display:flex;
+    flex-Wrap:wrap;
+}
+.search-box{
+    width:229px;
+    height:235px;
+    border-radius:7px;
+    overflow:hidden;
+    box-sizing:border-box;
+    margin:10px;
+}
+.search-box a{
+    text-decoration:none;
+}
+.search-box p{
+    font-size:1.3rem;
+    font-weight:700;
+    color:#ffffff;
+    padding-left:16px;
+}
+.search-box img{
+    transform: rotate(25deg);
+    padding:25px 0px 50px 120px;
+    height:100px; 
+    width:100px;
+}
+.description1{
+    color:#ffffff;
+}
+.description2{
+    color:#a7a7a7;
+    font-size:small;
+}
+.spotify-foot{
+    padding:8px 32px 40px;
+    margin:50px 0px;
+}
+.company, .communities, .links{
+    color:white;
+    display:grid;
+    margin:0px 0px 32px;
+}
+.spotify-foot a{
+    text-decoration:none;
+    color:#a7a7a7;
+    margin:5px 0px;
+}
+.spotify-foot a:hover{
+    text-decoration:underline;
+    color:white;
+}
+.social .fa-brands{
+    border-radius:9999px;
+    background:#292929;
+    padding:15px;
+    margin-top:13px;
+    margin-right:13px;
+}
+.copyright{
+    color:#a7a7a7;
+    border-top:1px solid #292929;
+    margin:40px 0px;
+    padding:40px 0px 0px;
+}
+/* makes the scrollbar invisible */
+::-webkit-scrollbar {
+    display:none;
+}
+/* .spotify-body .search{
+    display:block;
+}*/
+.hide{
+    display:none;
+}
